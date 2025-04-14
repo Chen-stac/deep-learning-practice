@@ -5,18 +5,20 @@
 
 2 Website:https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/
 ## Dateset
-[Classify the sentiment of the sentences from the Rotten Tomatoes Dateset](https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews)
+[Movies Reviews made by cornell](https://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)
+
+
 
 ## Report
 
 ![Text CNN](https://i-blog.csdnimg.cn/blog_migrate/e9a650dd82da0e885e8b913a85a0edfd.png#pic_center)
 ### Main idea
 #### 1
-We used a simple modification based on mature CNN model to allow for the use of both dynamic and stactic vectors by deploying two channels.
-Concerned the static vectors,we matain their fixed feature,In term of the dynamic,we deploy the backpropagation to updata the vectors.
+They used a simple modification based on mature CNN model to allow for the use of both dynamic and stactic vectors by deploying two channels.
+Concerned the static vectors,They matain their fixed feature,In term of the dynamicThey deploy the backpropagation to updata the vectors.
 
 #### 2
-we used different kernel_size to capture features from the word sequences of varing lengths.To some extent,we achieved commuication betweeen words in sequences.
+They used different kernel_size to capture features from the word sequences of varing lengths.To some extent,They achieved commuication betweeen words in sequences.
 ### Difference compare to the traditional
 The traditional CNN use the square-shaped convolutional kernal and keep fixed thoughout,sharing the same parameters.Due to the kernel_size,the traditional will capture features from  finer granularity.
 
