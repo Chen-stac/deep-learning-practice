@@ -3,7 +3,7 @@
 ##  Reference
 1 Paper:[Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)
 
-2 Website:https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/
+2 Shawn1993:(https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/)
 ## Dateset
 [Movies Reviews made by cornell](https://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)
 
